@@ -20,10 +20,7 @@ For this project, we were given a simple webpage and told to make it fit the acc
 -WHEN I view the title element
 -THEN I find a concise, descriptive title
 
-Provide instructions and examples for use. Include screenshots as needed.
-To add a screenshot, create an `assets/images` folder in your repository and upload your screenshot to it. Then, using the relative filepath, add it to your README using the following syntax:
-    ```md
-    ![alt text](assets/images/screenshot.png)
-    ```
+https://kingcrowz.github.io/Zaleski-01-homework/
 
+![website image](assets/images/Screenshot.png)
  

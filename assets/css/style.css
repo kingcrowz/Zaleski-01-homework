@@ -1,0 +1,201 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+/* applies base properties to everything contained within the page */
+
+body {
+    background-color: #d9dcd6;
+}
+/* Sets background color using hex codes to define color */
+
+header {
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #2a607c;
+    color: #ffffff;
+}
+/* Increase of space between the content and border 
+   Sets up a few different options for font
+   Sets background color using hex codes to define color
+   Sets text color using hex codes to define color*/
+
+header h1 {
+    display: inline-block;
+    font-size: 48px;
+}
+/*Sets up the Logo in the header and sets font size*/
+
+header h1 .seo {
+    color: #d9dcd6;
+}
+/*Offsets the color of the letter set 'SEO' inside of "Horiseon"*/
+
+header nav {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+/* Increase of space between the content and border
+   Increase of space for the right margin to occupy 
+   Brings the nav content to other side to space from Logo
+   Sets up a few different options for font and sets font size*/
+
+/* header nav ul {
+    list-style-type: none;
+} 
+Removed/Commented out this section because it does not seem to be doing anything*/
+
+header nav ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+/*allows these units to display left to right instead of stacked
+  Increase of space for the left margin to occupy*/
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+/*Uses hex codes to define color
+and removes decoration from nav links*/
+
+p {
+    font-size: 16px;
+}
+/*Changes font size for non-title content*/
+
+footer {
+    padding: 30px;
+    /* clear: both;   Removed because it seems to not affect anything in the code  */
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+/* Increase of space between the content and border 
+   Sets up a few different options for font and sets font size
+   Centers the text for the page footing
+*/
+
+footer h2 {
+    font-size: 20px;
+}
+/*Sets font size for the content at the bottom of footer*/
+
+
+.hero {
+    height: 800px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("../images/digital-marketing-meeting.jpg");
+    background-size: cover;
+    background-position: center;
+}
+/*.hero sets up a background image
+   Sets up a defined height for image and a dynamic width
+   Increases space for the margin to occupy on the bottom
+   Resizes the image to fit a certain size and centers it within the page*/
+
+
+main {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+/*Sets up a maximum width for the content block
+  Display change allows for size box to be next to it
+  Increases space for the margin to occupy on the left*/
+
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+/*Pulls content to the left
+ Increases space for the margin to occupy on the right*/
+
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
+/*Pulls content to the right
+ Increases space for the margin to occupy on the left*/
+
+aside {
+    margin-right: 20px;
+    padding: 20px;
+    /* clear: both; Removed because it seems to have no effect on the code*/
+    float: right;
+    width: 20%;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #2589bd;
+}
+/*.benefits is the side content window next to the .content section
+Increase of space between the content and border 
+Increases space for the margin to occupy on the right
+Float:right allows it to apply itself to the right of .content instead of on it own line
+Sets up a maximum width and gives benefits box no maximum height
+Sets up a few different options for font and sets font size
+Sets background color using hex codes to define color*/
+
+
+.benefit-lead {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+/*Increases space for the margin to occupy on the bottom
+  Sets text color using hex codes to define color */
+
+
+.benefit-lead h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+/*Increases space for the margin to occupy on the bottom
+  Aligns the text in the center of the box*/
+
+
+.benefit-lead img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+/*Display:block centers the image in the box on the X axis
+  Sets up margin values
+  Sets a maximum width for the image to display within
+  All 3 classes within benefits had identical style.css code,
+    so it was consolidated from 3 to 1*/
+
+
+.search-engine-optimization {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+/*Increases space for the margin to occupy on the bottom
+  Increase of space between the content and border 
+  Gives a defined value for the height of the content box
+  Sets up a few different options for font and sets font size
+  Sets background color using hex codes to define color
+  Sets text color using hex codes to define color
+  All 3 classes within content had identical style.css code,
+    so it was consolidated from 3 to 1*/
+
+  main img{
+      max-height: 200px;
+  }
+/*  Sets a maximum height value of 200 pixels for image
+    All 3 img's had same max height, so they were consolidated into one*/
+
+.search-engine-optimization h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+/*Increase of space between the content and border, and sets font size
+  Originally, all 3 IDs in class content had their own identical class,
+    so they were consolidated into one*/
